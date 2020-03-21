@@ -1,0 +1,9 @@
+---
+# tasks file for apache
+
+- name: Install Apache
+  yum:
+    name:
+      - Apache2
+      - nfs-utils
+    state: present
